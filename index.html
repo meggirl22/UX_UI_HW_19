@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<!-- Header including four navigation tabs -->
+    <head>
+        <title>Meg's Portfolio</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+    </head>
+ <body>
+    <header class="navigation">
+        <ul class="topNav">
+            <li>Home</li>
+            <li>About</li>
+            <li class="inline-block logo"><img src="images/meghanButcherGreenLogo2.png" width="100%"; height="auto"></li>
+            <li>Work</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+<!-- Body section of my homepage -->
+<!-- Hero image and "about me" section of homepage  -->
+    <section>
+        <div class="content">
+            <div class="lavender">
+                <img src="images/lavenderhand1.jpg" width="100%"; height="auto">
+            </div>
+            <h1>Hello!</h1>
+            <div class="purpleOverlap"> 
+                <div class="aboutMeg">
+                    <p>Meghan is a Jr UX/UI designer that specializes in UX Research and Information Architecture. She excels at solving user problems that may require thinking outside the box. Problems are approached with a imaginative mind and never-give-up attitude.</p>
+                </div>
+            </div>
+            <button class="resumeButton" onclick="myFunction()">Download Resume</button>
+            <p id="thankYou"></p>
+        </div>
+    </section>
+<!-- My Skills section of homepage -->
+    <section>
+        <div class="mySkills">
+            <!-- <img src="images/dandilion.jpg" width="100%"; height="auto"> -->
+            <div class="whiteBox">
+                <div class="skillHeaderR">
+                    <h3>Research</h3>
+                    <p id="explanations">While working as a data analyst, I built my skills in survey building, interviewing & presentation of research and data.</p>
+                    <img id="rIcon" src="images/researchIcon.png">
+                </div>
+                <div class="skillHeaderT">
+                    <h3>Teamwork</h3>
+                    <p id="explanations">I have spent many years of my career as an engagement specialist  which allowed me to gain a great deal of experience in cross-departmental collaboration.</p>
+                    <img id="tIcon" src="images/teamworkIcon.png">
+                </div>
+                <div class="skillHeaderC">
+                    <h3>Creativity</h3>
+                    <p id="explanations">During my first redesign I was able to enhance my design skills through creativity in Miro, Figma & FigJam</p>
+                    <img id="cIcon" src="images/creativityIcon.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="myWork">
+            <div class="workSectionWonder">
+                <h4 id="wonder">Wonderbloom Redesign</h4>
+                <p id="workSummary1">The Wonderbloom preschool and non-profit website was an eyesore for users & parents. The new redesigned website will make the search for a new preschool smooth and easy, leading to a confident, informed decision.</p>
+                <button class="greenNormal" id="wonderButton">View Redesign</button>
+                <img id="wonderpng" src="images/wonderbloomLogo.png">
+            </div>
+            <div class="workSectionUSDA">
+                <h4 id="usda">USDA Redesign</h4>
+                <p id="workSummary2">I completed a redesign to modernize the look and feel of the USDA website while also creating simple and efficient navigation so users can easily accomplish their needs.</p>
+                <button class="greenNormal" id="usdaButton">View Redesign</button>
+                <img id="usdapng" src="images/usdaLogo.png">
+            </div>
+            <div class="workSectionBoldly">
+                <h4 id="boldly">Boldly Solo App Design</h4>
+                <p id="workSummary3">Boldly Solo is a travel app I designed to connect and help book solo travelers on their dream trips, within their budgets and with the knowledge that they will be taken care of every step of the way to their ideal vacation experience.</p>
+                <button class="greenNormal" id="boldyButton">View Design</button>
+                <img id="boldlypng" src="images/boldlySoloLogo.png">
+            </div>
+        </div>
+        <h5>More Coming Soon!</h5>
+    </section>
+<!-- Footer including the "get in touch" portion of my portfolio website -->
+    <footer>
+        <div class="preFooter">
+            <h2>Get in touch!</h2>
+            <button class="purpleButton">Contact Me</button>
+        </div>
+        <div class="greenFoot">
+            <div>
+                <p class="contact1">(801)608-9569</p>
+                <p class="contact2">butcher.meghan@gmail.com</p>
+            </div> 
+        <!-- These are links, not just images in the footer -->
+            <a id="linkedIn"><img src="images/linkedin_icon_white.png"></a>
+            <a id="MBLogo"><img src="images/MB_Logo.png"></a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>    
+</html>
